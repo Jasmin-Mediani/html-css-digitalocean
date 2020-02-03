@@ -12,7 +12,6 @@
 /********** HEADER************/
 
 .container-hero {
-  height: 830px;
   background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 
@@ -130,6 +129,14 @@ a:hover {
   .fw-white-header {
     background-color: transparent;
   }
+
+  .container-della-row {
+    margin-top: -80px !important;
+  }
+
+  .navbar-header img {
+    visibility: hidden;
+  }
 }
 
 /************ HERO*************/
@@ -154,6 +161,7 @@ a:hover {
 .form {
   padding-top: 25px;
   background-color: #ffffff;
+  margin-bottom: 80px;
 }
 
 h1 {
@@ -258,4 +266,40 @@ button img {
 
 .termini-servizio:hover {
   cursor: pointer;
+}
+
+/****** SEZIONE GRIGIA CON LOGHI ******/
+
+.fw-grigio {
+  background-color: #f3f5f9;
+  /*provvisoria*/
+}
+
+.fw-grigio .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.fw-grigio img {
+  max-width: 95px;
+  height: 90px;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  object-fit: contain;
+}
+
+h4 {
+  text-transform: uppercase !important;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: #939eb5;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fw-grigio p {
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
