@@ -12,7 +12,7 @@
 /********** HEADER************/
 
 .container-hero {
-  height: 1200px;
+  height: 830px;
   background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 
@@ -130,4 +130,132 @@ a:hover {
   .fw-white-header {
     background-color: transparent;
   }
+}
+
+/************ HERO*************/
+
+.container-della-row {
+  width: 80%;
+  margin-top: 130px;
+}
+
+.jumbotron,
+.form {
+  height: auto;
+  float: left;
+  border-radius: 1%;
+}
+
+.jumbotron {
+  background-color: rgba(0, 73, 255, 0.5);
+  margin-top: 110px;
+}
+
+.form {
+  padding-top: 25px;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-weight: bold;
+  color: white !important;
+  margin-left: -45px;
+  margin-right: -45px;
+  line-height: 70px;
+  margin-top: -35px;
+  font-size: 55px !important;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-left: -45px;
+  margin-right: -45px;
+  line-height: 35px;
+  font-size: 24px !important;
+  color: #c2d3ff;
+  margin-bottom: -35px;
+}
+
+.icona1,
+.icona2,
+.icona3 {
+  width: 33.3333%;
+  border: 1px solid #c5c3c3;
+  float: left;
+}
+
+.icona2 {
+  margin-top: 22px;
+  margin-bottom: 30px;
+  color: #8f8a8a;
+  border: none;
+}
+
+.icona1,
+.icona3 {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-top: 35px;
+}
+
+.icona2 p {
+  font-size: 17px;
+}
+
+.form-control {
+  height: 40px;
+  margin-top: 20px;
+}
+
+button img {
+  width: 15px;
+}
+
+.row-innestata {
+  margin-top: 60px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.google,
+.github {
+  height: 50px;
+}
+
+.google {
+  margin-right: 3%;
+  width: 47%;
+}
+
+.github {
+  width: 47%;
+  margin-left: 3%;
+}
+
+.btn-crea-account {
+  margin-bottom: 10px;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #0069ff;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.termini-servizio {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+.termini-servizio:hover {
+  cursor: pointer;
 }

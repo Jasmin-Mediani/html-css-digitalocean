@@ -64,6 +64,46 @@
               </nav>
             </header>
           </div>
+          <div class="container container-della-row"> 
+            <div class="row"> <!-- nota: in md e in lg jumbotron e form non mi piacciono né con spazi da 6+6 né da 5+5 con offset di 2... forse sarebbe meglio dare a jumbotron e form un'ampiezza  del 47% e poi 3% di margine dx a jumbotron, e 3% di margine sx a form (fare cioé con le percentuali come ho fatto coi bottoni di google e github... per ora, comunque, lascio 5+5)-->
+              <div class="jumbotron col-xs-12 col-md-5 col-lg-5">
+                <h1>Welcome to the developer cloud</h1>
+                <h3>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</h3>
+              </div>
+              <div class="form col-xs-12 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2">
+                <h2 class="text-center">Deploy in seconds</h2>
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="inputname" placeholder="Full Name">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <input type="email" class="form-control" id="inputemail" placeholder="Email adress">
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Create Password">
+                    </div>
+                  </div>
+                  
+                  <button class="center-block btn-crea-account">Create your account</button>
+                  <div class="icona1"></div>
+                  <div class="icona2"><p class="text-center">or sign up with</p></div>
+                  <div class="icona3"></div>
+                </form>
+                <div class="row row-innestata">
+                  <button class="col-xs-12 col-md-6 col-lg-6 google"><img src="https://cdn.iconscout.com/icon/free/png-256/google-457-613463.png" alt="logo-google" class=""> Google</button>
+                  <button class="col-xs-12 col-md-6 col-lg-6 github"> <i class="fab fa-github"></i> Git hub</button>
+                </div>
+                <p class="text-center termini-servizio">By signing up you agree to the <a>Terms of Service.</a></p>
+              </div>
+            </div>
+          </div>
     </div>
   </body>
 </html>
