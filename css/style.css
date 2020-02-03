@@ -28,7 +28,7 @@ header {
   width: fit-content;
   float: left;
   margin-top: 5px;
-  margin-right: 40px;
+  margin-right: 10px;
   margin-left: 20px;
 }
 
@@ -38,7 +38,7 @@ header {
 
 ul li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 21px;
   font-size: 15px;
   line-height: 75px;
 }
@@ -107,13 +107,13 @@ a:hover {
   border: none;
 }
 
-@media screen and (min-width: 1049px) {
+@media screen and (min-width: 992px) {
   .hamburger {
     visibility: hidden;
   }
 }
 
-@media screen and (max-width: 1048px) {
+@media screen and (max-width: 991px) {
   .bottone-header {
     visibility: hidden;
   }
