@@ -400,9 +400,6 @@ h4 {
   background-color: #ffffff;
 }
 
-.fw-bianco3 .contenitore {
-}
-
 .fw-bianco3 .row {
   margin: 0;
   padding-bottom: 80px;
@@ -437,6 +434,76 @@ h4 {
 
 .fw-bianco3 a {
   font-size: 16px;
+}
+
+/********* 12 DATA CENTERS ***********/
+
+.fw-immagine-2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_earth_at_night_%282%29.jpg/1280px-The_earth_at_night_%282%29.jpg");
+}
+
+.fw-immagine-2 .contenitore {
+  padding-bottom: 80px;
+}
+
+.fw-immagine-2 h2 {
+  color: white;
+}
+
+.cont {
+  float: left;
+  margin-bottom: 40px;
+  background-color: rgba(0, 1, 68, 0.7);
+}
+
+.contenitore-a-sx {
+  padding-right: 27px;
+}
+
+.contenitore-a-dx {
+  padding-left: 27px;
+}
+
+.sei-paesi {
+  float: left;
+  border: 1px solid rgb(68, 84, 128);
+  height: 40px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.sei-paesi:last-child {
+  border-bottom: none;
+}
+
+.boxino-left {
+  float: left;
+  margin-right: 25px;
+  color: white;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.boxino-left2 {
+  color: #98a2b6;
+  font-size: 13px;
+}
+
+.boxino-right {
+  float: right;
+  line-height: 40px;
+  color: #0599a6;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.boxino-right .fa-chevron-right {
+  font-size: 8px;
+}
+
+.boxino-right a:hover {
+  cursor: pointer;
 }
 
 /************ TABLET E MOBILE ****************/
