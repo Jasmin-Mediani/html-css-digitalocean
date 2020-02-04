@@ -35,18 +35,18 @@ header {
   border: none;
 }
 
-ul li {
+.lista-navbar li {
   display: inline-block;
   margin-left: 21px;
   font-size: 15px;
   line-height: 75px;
 }
 
-ul li:first-child {
+.lista-navbar li:first-child {
   margin-left: 0px;
 }
 
-ul li a {
+.lista-navbar li a {
   color: black;
   text-decoration: none;
 }
@@ -279,6 +279,63 @@ h4 {
 
 /******** SEZ. DEPLOY AND SCALE SEAMLESSLY ******/
 
+.fw-bianco2 {
+  background-color: #ffffff;
+}
+
+.contenitore-piccolo {
+  border: 1px solid black;
+  height: 500px;
+}
+
+.mio-p1 {
+  font-size: 20px;
+}
+
+.row-p {
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.row-2 {
+  border: 1px solid orange;
+  margin: 0 auto;
+}
+
+.menu-laterale {
+  border: 1px solid purple;
+}
+
+.ul-2 li {
+  margin-left: -15px;
+  list-style-type: none;
+  border: 1.5px solid gray;
+  line-height: 80px;
+  padding-left: 15px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  color: gray;
+}
+
+.riga1 {
+  background-color: green;
+}
+
+.menu-laterale {
+  background-color: khaki;
+}
+
+.contenitore-dentro {
+  height: 50px;
+  background-color: lightgreen;
+}
+
+.box {
+  float: left;
+  border: 2px solid black;
+}
+
 /************ TABLET E MOBILE ****************/
 
 @media screen and (min-width: 992px) {
@@ -316,12 +373,10 @@ h4 {
 
 @media screen and (max-width: 766px) {
   .col {
-    border: 1px solid black;
     width: 50%;
   }
 
   .col img {
-    border: 1px solid red;
     min-width: 100%;
   }
 }
