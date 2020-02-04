@@ -283,9 +283,9 @@ h4 {
   background-color: #ffffff;
 }
 
-.contenitore-piccolo {
-  border: 1px solid black;
-  height: 500px;
+.h2-mio {
+  margin-top: 80px;
+  border: 1px;
 }
 
 .mio-p1 {
@@ -293,17 +293,12 @@ h4 {
 }
 
 .row-p {
-  border: 1px solid red;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .row-2 {
-  border: 1px solid orange;
   margin: 0 auto;
-}
-
-.menu-laterale {
-  border: 1px solid purple;
 }
 
 .ul-2 li {
@@ -318,22 +313,130 @@ h4 {
   color: gray;
 }
 
+.ul-2 li:hover {
+  color: black;
+  cursor: pointer;
+  border-left: 1.5px solid blue;
+}
+
 .riga1 {
-  background-color: green;
-}
-
-.menu-laterale {
-  background-color: khaki;
-}
-
-.contenitore-dentro {
-  height: 50px;
-  background-color: lightgreen;
+  margin: 0 auto;
 }
 
 .box {
   float: left;
-  border: 2px solid black;
+  margin-bottom: 30px;
+}
+.box .fas,
+.box .far {
+  font-size: 30px;
+  color: #0049ff;
+}
+
+.contenitore-piccolo {
+  padding-bottom: 80px;
+}
+
+.contenitore-dentro h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contenitore-dentro p {
+  color: #76839f;
+}
+
+/******** CONTENITORE DESIGNED FOR DEVELOPERS  ((!!!!!!!!!!!!!!!!!!!!!!!!!!!!! DA SISTEMARE TUTTA)) ****/
+.fw-grigio2 {
+  background-color: #f3f5f9;
+}
+.mio-p2 {
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+}
+
+.fw-grigio .contenitore {
+  border: 1px solid black;
+}
+
+.arrow-sx,
+.immy,
+.arrow-dx {
+  float: left;
+  padding: 0;
+}
+
+.arrow-sx,
+.arrow-dx {
+  /*non so perché funziona così... con 25 invece che 50*/
+  margin-top: 25%;
+  transform: translateY(-50%);
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+  text-align: center;
+  font-size: 40px;
+}
+
+.row-grigia p {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.mio-p3 {
+  font-size: 20px;
+}
+
+.mio-p4 {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  color: #4a5c81;
+  font-size: 16px;
+}
+
+/************* SEZIONE BUILT FOR BUSINESS***********/
+.fw-bianco3 {
+  background-color: #ffffff;
+}
+
+.fw-bianco3 .contenitore {
+}
+
+.fw-bianco3 .row {
+  margin: 0;
+  padding-bottom: 80px;
+}
+
+.boite {
+  float: left;
+  height: 320px;
+  margin-top: 30px;
+}
+
+.fw-bianco3 h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fw-bianco3 p {
+  font-size: 17px;
+  line-height: 30px;
+  color: #4e5f83;
+}
+
+.fw-bianco3 .far,
+.fw-bianco3 .fas {
+  font-size: 30px;
+  color: #0049ff;
+}
+
+.fw-bianco3 .fa-chevron-right {
+  font-size: 15px;
+}
+
+.fw-bianco3 a {
+  font-size: 16px;
 }
 
 /************ TABLET E MOBILE ****************/
@@ -378,6 +481,16 @@ h4 {
 
   .col img {
     min-width: 100%;
+  }
+
+  .arrow-dx,
+  .arrow-sx {
+    display: none;
+  }
+
+  .immy {
+    width: 90%;
+    margin-left: 5%;
   }
 }
 
