@@ -593,13 +593,18 @@ h4 {
   margin-bottom: 80px;
 }
 
+.bottone-create-your-account:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
 /********** FOOTER ***********/
 .fw-blu-scuro {
   background-color: #010e28;
 }
 
 .fw-blu-scuro .contenitore {
-  border: 1px solid white;
 }
 
 .contenitore-interno {
@@ -613,7 +618,6 @@ h4 {
 }
 
 .fw-blu-scuro .row {
-  background-color: pink;
   margin: 0;
 }
 
@@ -624,8 +628,22 @@ h4 {
 .scatola li {
   line-height: 35px;
 }
+
+.scatola ul li a {
+  color: #6b7382;
+  font-weight: bold;
+}
+
+.scatola ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.scatola ul li:first-child a {
+  color: white;
+}
 .cont-footer-lower {
-  height: 200px;
+  height: 120px;
   width: 80%;
   margin: 0 auto;
 }
@@ -635,10 +653,9 @@ h4 {
 }
 
 .cont-logo {
-  border: 1px solid black;
   width: fit-content;
   float: left;
-  color: #3b475c;
+  color: #6b7382;
 }
 .cont-logo img {
   width: 60px;
@@ -647,7 +664,15 @@ h4 {
 .cont-icone {
   float: right;
   color: white;
+}
+
+.cont-icone .fab {
   opacity: 0.6;
+}
+
+.cont-icone .fab:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 
 .cont-icone ul li {
