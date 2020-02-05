@@ -351,15 +351,14 @@ h4 {
 }
 
 /******** CONTENITORE DESIGNED FOR DEVELOPERS  ((!!!!!!!!!!!!!!!!!!!!!!!!!!!!! DA SISTEMARE TUTTA)) ****/
+
 .fw-grigio2 {
   background-color: #f3f5f9;
 }
+
 .mio-p2 {
   margin-top: 0px !important;
   margin-bottom: 20px !important;
-}
-
-.fw-grigio .contenitore {
 }
 
 .arrow-sx,
@@ -549,7 +548,7 @@ h4 {
 }
 
 .chevron-lr-alto {
-  margin-top: 100px; /*potrebbe cambiare*/
+  margin-top: 15%; /*potrebbe cambiare*/
 }
 
 .p-grigio {
@@ -593,6 +592,70 @@ h4 {
   border: none;
   margin-bottom: 80px;
 }
+
+/********** FOOTER ***********/
+.fw-blu-scuro {
+  background-color: #010e28;
+}
+
+.fw-blu-scuro .contenitore {
+  border: 1px solid white;
+}
+
+.contenitore-interno {
+  height: auto !important;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.scatola {
+  float: left;
+}
+
+.fw-blu-scuro .row {
+  background-color: pink;
+  margin: 0;
+}
+
+.scatola ul {
+  list-style-type: none;
+}
+
+.scatola li {
+  line-height: 35px;
+}
+.cont-footer-lower {
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hr-grigia {
+  border: 0.5px solid rgb(94, 94, 94);
+}
+
+.cont-logo {
+  border: 1px solid black;
+  width: fit-content;
+  float: left;
+  color: #3b475c;
+}
+.cont-logo img {
+  width: 60px;
+}
+
+.cont-icone {
+  float: right;
+  color: white;
+  opacity: 0.6;
+}
+
+.cont-icone ul li {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
 /************ TABLET E MOBILE ****************/
 
 @media screen and (min-width: 992px) {
